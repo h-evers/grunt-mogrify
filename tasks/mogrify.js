@@ -28,7 +28,7 @@ module.exports = function (grunt) {
 	var files = this.data.files;
     // Test output directory (ImageMagick errors if it doesn't exist)
     if (!grunt.file.exists(files.dest)) {
-      grunt.warn('Target directory does not exist: '+files.dest);
+      grunt.file.mkdir(files.dest);
     }
     
 	// Iterate over all specified file groups.
