@@ -1,0 +1,11 @@
+{
+  "name": "grunt-mogrify",
+  "version": "0.0.2",
+  "author": {
+    "name": "Neoskop GmbH"
+  },
+  "repository": {
+    "type": "git",
+    "url" : "http://github.com/h-evers/grunt-mogrify.git"
+  }
+}
